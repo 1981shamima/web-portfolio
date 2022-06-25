@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+
 }
 
 h1 {
@@ -8,13 +9,25 @@ h1 {
 
 }
 
-.m {
-    color: orange;
+h2 {
+    font-size: 30px;
 }
 
-section {
+h3 {
+    color: rgb(237, 69, 23);
+}
+
+
+
+
+.m {
+    color: rgb(0, 60, 255);
+}
+
+.f-container {
     display: flex;
     margin-bottom: 140px;
+
 }
 
 .k {
@@ -22,17 +35,24 @@ section {
     padding-left: 5%;
 }
 
+
+
+
+
+
+
 .k img {
     width: 80%;
+    padding-left: 5%;
 }
 
+
 .link-button {
+    background-image: linear-gradient(rgb(64, 224, 53), rgb(112, 12, 4));
+    padding: 10px 45px;
     text-decoration: none;
-    background-color: tomato;
-    padding: 10px 40px;
-    border-radius: 5px;
-    background-image: linear-gradient(orange, tomato);
     color: white;
+    border-radius: 6px;
     font-weight: 700;
 }
 
@@ -40,10 +60,52 @@ section {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+
 }
 
 .shamima {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.how-to {
+    box-shadow: 11px 11px 35px gray;
+    width: 44%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 20px;
+    border-radius: 13px;
+
+}
+
+.mahin {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+
+    background-position: left;
+}
+
+#andre {
+    border-left: 9px solid;
+    border-top: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-image: linear-gradient(rgb(182, 191, 123), rgb(71, 194, 255));
+    border-image-slice: 1;
+}
+
+#hackney {
+    border-left: 8px solid;
+    border-top: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-image: linear-gradient(rgb(30, 27, 231), rgb(197, 72, 19));
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
